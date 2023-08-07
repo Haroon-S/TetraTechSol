@@ -3,7 +3,7 @@ module.exports = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  target: "serverless",
+  // target: "serverless",
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback.fs = false;

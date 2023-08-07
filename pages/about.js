@@ -27,9 +27,9 @@ function about() {
         <link rel="icon" href="/img/logo1.png" />
       </Head>
 
-      <div className=" navbar font-thin fixed top-0 left-0 h-0 z-20 w-full ">
+      {/* <div className=" navbar font-thin fixed top-0 left-0 h-0 z-20 w-full ">
         <Navbar />
-      </div>
+      </div> */}
       {/* <div className=" navbar font-thin fixed top-0 left-0 h-0 z-20 w-full ">
         <Navbar2 />
       </div> */}

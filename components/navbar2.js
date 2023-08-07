@@ -64,7 +64,7 @@ export default function Navbar2() {
       <div className=" container w-full pr-8 pl-4 md:pr-0 md:pl-0 flex items-center justify-between md:mx-auto md:max-w-7xl h-24 overflow-x-hidden">
         {/* <HomeBtn /> */}
         <div className=" flex-1">
-          <Link href="/">
+          <Link legacyBehavior href="/">
             <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
               <span>
                 <img
@@ -86,7 +86,7 @@ export default function Navbar2() {
             <nav>
               <ul className=" flex justify-evenly flex-wrap items-center gap-9">
                 <li>
-                  <Link href="/">
+                  <Link legacyBehavior href="/">
                     <a
                       className={
                         router.pathname == "/"
@@ -121,7 +121,7 @@ export default function Navbar2() {
                     <ul class=" bg-gradient-to-br from-[#FF4BCE] to-[#860EFF] mt-0 py-2 rounded-xl transform scale-0 group-hover:scale-100 absolute z-10 transition duration-150 ease-in-out origin-top min-w-32">
                       {services.map((service) => (
                         <li className=" py-2 last:border-0 border-b border-b-[#0B0B27]">
-                          <Link href={service.link}>
+                          <Link legacyBehavior href={service.link}>
                             <a
                               className={
                                 "py-1 transition-all px-8 w-full font-medium text-base hover:text-[#0B0B27] dark:hover:text-[#0B0B27] rounded-3xl text-center"
@@ -136,7 +136,7 @@ export default function Navbar2() {
                   </div>
                 </li>
                 <li>
-                  <Link href="/about">
+                  <Link legacyBehavior href="/about">
                     <a
                       className={
                         router.pathname == "/about"
@@ -149,7 +149,7 @@ export default function Navbar2() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact">
+                  <Link legacyBehavior href="/contact">
                     <a
                       className={
                         router.pathname == "/contact"
@@ -215,7 +215,7 @@ export default function Navbar2() {
             <nav className=" text-base font-semibold w-full text-white dark:text-white">
               <ul>
                 <li className=" py-5 w-full">
-                  <Link href="/">
+                  <Link legacyBehavior href="/">
                     <a
                       className={
                         "py-5 w-full after:transition-all after:duration-500 " + (router.pathname == "/" && " text-[#0B0B27]")
@@ -328,7 +328,7 @@ export default function Navbar2() {
                   </div>
                 </li> */}
                 <li className=" py-5 w-full">
-                <Link href="/about">
+                <Link legacyBehavior href="/about">
                     <a
                       className={
                         "py-5 w-full after:transition-all after:duration-500 " + (router.pathname == "/about" && " text-[#0B0B27]")
@@ -339,7 +339,7 @@ export default function Navbar2() {
                   </Link>
                 </li>
                 <li className=" py-5 w-full">
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                     <a
                       className={
                         "py-5 w-full after:transition-all after:duration-500 " + (router.pathname == "/contact" && " text-[#0B0B27]")
