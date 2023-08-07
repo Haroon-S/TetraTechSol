@@ -96,7 +96,7 @@ export default function Home() {
           </SectionTitle>
           <Faq />
           <Cta />
-          <Footer />
+          {/* <Footer /> */}
           <PopupWidget />
         </div>
       </div>
