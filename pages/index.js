@@ -42,9 +42,9 @@ export default function Home() {
 
       <Preloader />
 
-      {/* <div className=" navbar font-thin fixed top-0 left-0 h-0 z-20 w-full ">
+      <div className=" navbar font-thin fixed top-0 left-0 h-0 z-20 w-full ">
         <Navbar />
-      </div> */}
+      </div>
       {/* <div className=" navbar font-thin fixed top-0 left-0 h-0 z-20 w-full ">
         <Navbar2 />
       </div> */}
@@ -96,7 +96,7 @@ export default function Home() {
           </SectionTitle>
           <Faq />
           <Cta />
-          {/* <Footer /> */}
+          <Footer />
           <PopupWidget />
         </div>
       </div>
